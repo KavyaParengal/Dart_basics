@@ -2,7 +2,11 @@ import 'dart:io';
 
 void main(){
   String result=compare();
-  print(result);
+  if(result=='false') {
+    print('The given 2 string is not equal');
+  }
+  else
+    print('The given 2 string is equal');
 }
 
 compare(){
