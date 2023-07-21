@@ -59,6 +59,7 @@ void main() {
   String str="malayalam";
   var originalStr = str;
   var reversedStr = str.split('').reversed.join('');
+  //print(reversedStr);
   if (originalStr == reversedStr) {
     print('$originalStr is palindrome.');
   } else {
